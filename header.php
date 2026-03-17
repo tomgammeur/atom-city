@@ -60,10 +60,35 @@ nav ul li a {
     transition: 0.3s;
         
 }
-
-nav ul li a:hover {
-    text-shadow: 0 0 10px white;
+.connect a {
+ display: inline-block;
+    background: linear-gradient(45deg, #5700aeff, #5c0053ff);
+    color: white;
+    font-family: "Codec Pro";
+    border: none;
+    border-radius: 100px;
+    padding: 10px 20px;
+    font-size: 18px;
+    transition: all 0.5s; 
+    text-decoration:none;
+    display: flex;
+        
 }
+
+
+        .connect a:hover {
+    font-family: "Codec Pro";
+    background: linear-gradient(45deg, #6016abff, #810874ff);
+            box-shadow: 0 0 10px #fff;
+            transform: scale(1.1);
+        }
+
+                .connect a:active {
+    font-family: "Codec Pro";
+    background: linear-gradient(45deg, #6016abff, #810874ff);
+            box-shadow: 0 0 10px #fff;
+            transform: scale(1.0);
+        }
 
         nav ul li a:hover {
     font-family: "Codec Pro";
@@ -324,6 +349,10 @@ h1 {
             <li><a href="events.php">Événements</a></li>
             <li><a href="galerie.php">Galerie</a></li>
             <li><a href="contact.php">Contact</a></li>
+            <div class="connect">
+                            <a href="data/testsql.php" class="btn-login">Connexion</a>
+</div>
+
         </ul>
     </nav>
 </header>
