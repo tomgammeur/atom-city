@@ -27,6 +27,8 @@
             align-items: center;
             opacity: 0;
             animation: fadeIn 0.5s forwards;
+                text-decoration: none;
+
         }
     </style>
 </head>
@@ -48,6 +50,8 @@
     transition: all 0.5s;
     opacity: 0;
     animation: fadeIn 0.5s forwards;
+        text-decoration: none;
+
 }
 
 a:hover {

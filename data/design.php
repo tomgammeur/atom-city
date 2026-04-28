@@ -10,7 +10,7 @@
     background-color: blue;
     padding: 15px 0;
     margin: 24px;
-    border-radius: 10px;
+    border-radius: 40px;
     color: white;
     justify-content: center;
     align-items: center;
@@ -26,7 +26,7 @@
     color: white;
     font-family: "Codec Pro";
     border: none;
-    border-radius: 5px;
+    border-radius: 40px;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
