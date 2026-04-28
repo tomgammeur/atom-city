@@ -332,6 +332,15 @@ h1 {
     font-size:16px;
     text-align:center;
 }
+footer a {
+        text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    transition: 0.3s;
+        font-family: "Codec Pro";
+
+}
+
     </style>
 </head>
 
@@ -350,7 +359,7 @@ h1 {
             <li><a href="galerie.php">Galerie</a></li>
             <li><a href="contact.php">Contact</a></li>
             <div class="connect">
-                            <a href="data/testsql.php" class="btn-login">Connexion</a>
+            <a href="data/testsql.php" class="btn-login">Connexion</a>
 </div>
 
         </ul>

@@ -22,6 +22,13 @@
     </a>
 </div>
     © <?php echo date("Y"); ?> Atom City - Atom City, Associtation loi 1901. Siège : 113 Rue Barthelemy Delespaul, 59000 Lille.
+    <br>
+    <br>
+    <a href="cgu.php"> CGU </a>
+    <a href="rgpd.php"> Confidentalité </a> 
+    <a href="mentionslegales.php"> Mentions légales </a>
+
+
 </footer>
 </body>
 </html>

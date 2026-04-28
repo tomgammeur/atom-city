@@ -6,7 +6,7 @@ require "header.php"
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>High Scores - Atom City</title>
+    <title>404 - Atom City</title>
 
 </head>
 <body>
