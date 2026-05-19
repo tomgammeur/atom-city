@@ -340,7 +340,119 @@ footer a {
         font-family: "Codec Pro";
 
 }
+@keyframes slideFadeInLeft {
+  0% {
+    transform: translateX(-60px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
 
+.entree-gauche {
+  animation: slideFadeInLeft 0.9s cubic-bezier(0.22, 1, 0.76, 1) forwards;
+  will-change: transform, opacity;
+}
+.hiscores {
+    margin: 20px auto;   
+    max-width: 600px;
+    width: 900px;
+    border-collapse: collapse;
+    margin-top: 12px;
+    background: #111;
+    color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+}
+
+/* En-tête */
+.hiscores thead {
+    background: linear-gradient(90deg, #ff0080, #7928ca);
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+}
+
+.hiscores th {
+    padding: 12px;
+    text-align: left;
+}
+
+/* Lignes */
+.hiscores td {
+    padding: 12px;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+    vertical-align: middle;
+}
+
+/* Alternance lignes */
+.hiscores tbody tr:nth-child(even) {
+    background: rgba(255,255,255,0.03);
+}
+
+/* Hover ligne */
+.hiscores tbody tr:hover {
+    background: rgba(255, 0, 128, 0.15);
+    transition: 0.2s ease;
+}
+
+/* Colonne rang */
+.hiscores .rank {
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+    width: 50px;
+}
+
+/* Podium couleurs */
+.hiscores tbody tr:nth-child(1) .rank {
+    color: gold;
+    font-size: 1.3rem;
+}
+
+.hiscores tbody tr:nth-child(2) .rank {
+    color: silver;
+}
+
+.hiscores tbody tr:nth-child(3) .rank {
+    color: #cd7f32; /* bronze */
+}
+.hiscores .game-center img {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 2px solid #ff0080;
+}
+.hiscores .player span {
+    font-weight: 600;
+    color: #ff66c4;
+}
+.hiscores .player img {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 2px solid #ff0080;
+}
+/* Score */
+.hiscores .score {
+    font-family: Codec Pro;
+    font-size: 1rem;
+    text-align: right;
+    color: #00ffcc;
+}
+
+@media (max-width: 700px) {
+    .hiscores th:nth-child(2),
+    .hiscores td:nth-child(2) {
+        display: none; 
+    }
+}
+.modes li {
+    list-style: none;
+}
     </style>
 </head>
 

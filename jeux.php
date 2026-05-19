@@ -21,6 +21,24 @@ require "header.php"
 <br>
 
     <input type="text" id="searchBar" placeholder="Rechercher un jeu..." class="search-bar">
+    <script>
+const searchBar = document.getElementById("searchBar");
+
+searchBar.addEventListener("keyup", function () {
+    const value = this.value.toLowerCase();
+    const cards = document.querySelectorAll(".event-card");
+
+    cards.forEach(card => {
+        const title = card.querySelector("h3").textContent.toLowerCase();
+
+        if (title.includes(value)) {
+            card.style.display = "block";
+        } else {
+            card.style.display = "none";
+        }
+    });
+});
+</script>
 <!--
     TEMPLATE 
     <div class="events-container">
@@ -83,6 +101,118 @@ Rythme, SEGA, 2018
     </div>
     </div>
 
+        <div class="events-container">
+<div class="event-card">
+    <img src="https://static.wikia.nocookie.net/darkstalkers/images/e/e4/Vampire_Savior_Lord_of_Vampire_Character_Select_Screen.png/revision/latest?cb=20110622014038" alt="Jeu" class="image-arrondie">
+    <div class="event-content">
+        <h3>Vampire Savior/Darkstalker 3</h3>
+                        <p class="event-description">
+VS Fighting, Capcom, 1997
+ 
+        </p>
+    </div>
+    </div>
+    </div>
+            <div class="events-container">
+<div class="event-card">
+    <img src="https://atomcity.fr/images/jeux/mortalkombat.jpg" alt="Jeu" class="image-arrondie">
+    <div class="event-content">
+        <h3>Mortal Kombat</h3>
+                        <p class="event-description">
+VS Fighting, Midway, 1992
+        </p>
+    </div>
+    </div>
+    </div>
+
+<div class="event-card">
+    <img src="https://atomcity.fr/images/jeux/metalslug3.jpg" alt="Jeu" class="image-arrondie">
+    <div class="event-content">
+        <h3>Metal Slug 3</h3>
+                        <p class="event-description">
+Run’n Gun, SNK, 2000
+        </p>
+    </div>
+    </div>
+    </div>
+
+<div class="event-card">
+    <img src="https://atomcity.fr/images/jeux/fzero-ax.jpg" alt="Jeu" class="image-arrondie">
+    <div class="event-content">
+        <h3>F-Zero AX</h3>
+                        <p class="event-description">
+Course, Sega/Nintendo, 2003
+        </p>
+    </div>
+    </div>
+    </div>
+
+    <div class="event-card">
+    <img src="https://i.ytimg.com/vi/uZXmhdoF2hk/maxresdefault.jpg" alt="Jeu" class="image-arrondie">
+    <div class="event-content">
+        <h3>Motocross Go!</h3>
+                        <p class="event-description">
+        </p>
+    </div>
+    </div>
+    </div>
+
+    <div class="event-card">
+    <img src="https://atomcity.fr/images/jeux/pang.jpg" alt="Jeu" class="image-arrondie">
+    <div class="event-content">
+        <h3>Pang</h3>
+                        <p class="event-description">
+        Shoot’em Up, Mitchell, 1989
+        </p>
+    </div>
+    </div>
+    </div>
+
+
+<div class="event-card">
+    <img src="https://atomcity.fr/images/jeux/thenextspace.jpg" alt="Jeu" class="image-arrondie">
+    <div class="event-content">
+        <h3>The Next Space</h3>
+                        <p class="event-description">
+Shoot’em Up, SNK, 1989
+        </p>
+    </div>
+    </div>
+    </div>
+
+<div class="event-card">
+    <img src="https://atomcity.fr/images/jeux/thunderforceac.jpg" alt="Jeu" class="image-arrondie">
+    <div class="event-content">
+        <h3>Thunder Force AC</h3>
+                        <p class="event-description">
+Shoot’em Up, Technosoft/Sega, 1990
+        </p>
+    </div>
+    </div>
+    </div>
+
+    <div class="event-card">
+    <img src="https://atomcity.fr/images/jeux/virtuanba.jpg" alt="Jeu" class="image-arrondie">
+    <div class="event-content">
+        <h3>Virtua NBA</h3>
+                        <p class="event-description">
+Shoot’em Up, Technosoft/Sega, 1990
+        </p>
+    </div>
+    </div>
+    </div>
+
+<div class="event-card">
+    <img src="https://atomcity.fr/images/jeux/vasara.jpg" alt="Jeu" class="image-arrondie">
+    <div class="event-content">
+        <h3>Vasara</h3>
+                        <p class="event-description">
+Shoot’em Up, Visco Corporation, 2000
+        </p>
+    </div>
+    </div>
+    </div>
+
     <div class="events-container">
 <div class="event-card">
     <img src="https://atomcity.fr/images/jeux/mkgp2.jpg" alt="Jeu" class="image-arrondie">
@@ -119,6 +249,43 @@ Plateforme, Namco/Midway, 1980
     </div>
     </div>
 
+    <div class="events-container">
+<div class="event-card">
+    <img src="https://atomcity.fr/images/jeux/asterix.jpg" alt="Jeu" class="image-arrondie">
+    <div class="event-content">
+        <h3>Asterix</h3>
+                        <p class="event-description">
+Beat’em Up, Konami, 1992
+        </p>
+    </div>
+    </div>
+    </div>
+
+    <div class="events-container">
+<div class="event-card">
+    <img src="https://www.arcadeclub.co.uk/cdn/game-library/hatsune-miku-project-diva-arcade/1280/hatsune-miku-project-diva-arcade_screenshot_001_@1280.jpg" alt="Jeu" class="image-arrondie">
+    <div class="event-content">
+        <h3>Project Diva Arcade</h3>
+                        <p class="event-description">
+Rythme, Sega
+        </p>
+    </div>
+    </div>
+    </div>
+
+        <div class="events-container">
+<div class="event-card">
+    <img src="https://atomcity.fr/images/jeux/bombermanworld.jpg" alt="Jeu" class="image-arrondie">
+    <div class="event-content">
+        <h3>Bomberman World</h3>
+                        <p class="event-description">
+Puzzle, Irem, 1992
+        </p>
+    </div>
+    </div>
+    </div>
+
+
     <div class="event-card">
     <img src="https://atomcity.fr/images/jeux/popnpop.jpg" alt="Jeu" class="image-arrondie">
     <div class="event-content">
@@ -129,7 +296,38 @@ Puzzle, Taito, 1998
     </div>
     </div>    
 </div>
+    <div class="event-card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRORfmEc6PjKA-oE5gqOHfykzD_4wwf8bBN-A&s" alt="Jeu" class="image-arrondie">
+    <div class="event-content">
+        <h3>Sonic Wings 3</h3>
+                        <p class="event-description">
+Shoot’em Up, Video System, 1995
+        </p>
+    </div>
+    </div>    
+</div>
 
+    <div class="event-card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2PQJWn6EvK1TRlqgqa77Xw3KuUpNQqqsXDg&s" alt="Jeu" class="image-arrondie">
+    <div class="event-content">
+        <h3>Zuapapa</h3>
+                        <p class="event-description">
+Plateforme, Face, 2001
+        </p>
+    </div>
+    </div>    
+</div>
+
+    <div class="event-card">
+    <img src="https://atomcity.fr/images/jeux/virtuaracing.jpg" alt="Jeu" class="image-arrondie">
+    <div class="event-content">
+        <h3>Virtua Racing</h3>
+                        <p class="event-description">
+Course, Sega, 1992
+        </p>
+    </div>
+        </div>   
+    </div>
 
     <div class="event-card">
     <img src="https://atomcity.fr/images/jeux/puzzlebobble.jpg" alt="Jeu" class="image-arrondie">
@@ -139,7 +337,8 @@ Puzzle, Taito, 1998
 Puzzle, Taito, 1994
         </p>
     </div>
-        </div>    </div>
+        </div>   
+    </div>
 
 
     <div class="event-card">
