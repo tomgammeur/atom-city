@@ -45,7 +45,48 @@
     padding: 10px 25px;
 
 }
+.account-container {
+    max-width: 900px;
+    margin: 40px auto;
+    font-family: 'Codec Pro';
+    color: white;
+}
 
+.account-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff66c4;
+}
+
+.account-card {
+    background: #111;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+    border: 1px solid rgba(255,255,255,0.05);
+}
+
+.pfp {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 2px solid #ff0080;
+    margin-top: 10px;
+}
+
+.scores {
+    list-style: none;
+    padding: 0;
+}
+
+.scores li {
+    padding: 8px;
+    margin: 5px 0;
+    background: rgba(255,255,255,0.05);
+    border-left: 3px solid #ff0080;
+    border-radius: 6px;
+}
     </style>
 </head>
 <body>
