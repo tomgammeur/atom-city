@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/codec-pro" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="icons/logopng.png">
+
     <style>
 
         * {
@@ -12,7 +15,7 @@
         }
 
         body {
-            font-family: "Codec Pro";
+             font-family: 'Codec Pro', sans-serif;                                 
             background: radial-gradient(circle at top, #1a1a40, #0d0d1a);
             color: white;
         }
@@ -20,9 +23,9 @@
         header {
     font-family: "Codec Pro";
     display: flex;
-    justify-content: center;   /* centre tout horizontalement */
-    align-items: center;       /* centre verticalement */
-    gap: 30px;                 /* petit espace entre logo et menu */
+    justify-content: center;   
+    align-items: center;       
+    gap: 30px;                 
     padding: 15px 0;
     background: linear-gradient(90deg, #ff0080, #7928ca, #00c6ff);
 }

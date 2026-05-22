@@ -14,7 +14,7 @@ require "header.php"
         <h2>Conditions générales d'utilisation</h2>
         <p>
 
-Dernière mise à jour : 31/03/2026 </p><br>
+Dernière mise à jour : 19/05/2026 </p><br>
 
 <p>
 
@@ -29,7 +29,7 @@ et de permettre aux visiteurs de prendre contact avec l’association.</p><br><b
 Accès au site </p><br>
 <p>
 Le site est accessible gratuitement à tout utilisateur disposant d’un accès à Internet.
-Tous les frais liés à l’accès au service (matériel informatique, connexion Internet, etc.)
+Tous les frais liés à l’accès au service (matériel informatique, connexion Internet, hebergement...)
 sont à la charge de l’utilisateur.</p><br><br>
 <p>
 Responsabilités </p><br>
