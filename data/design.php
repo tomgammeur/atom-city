@@ -22,7 +22,7 @@
         }
 
 .gradient-button {
-    background: linear-gradient(45deg, #5700aeff, #5c0053ff); /* Dégradé de couleur */
+    background: linear-gradient(45deg, #5700aeff, #5c0053ff);
     color: white;
     font-family: "Codec Pro";
     border: none;
@@ -86,6 +86,22 @@
     background: rgba(255,255,255,0.05);
     border-left: 3px solid #ff0080;
     border-radius: 6px;
+}
+
+.custom-input{
+    border-radius: 30px;
+    font-family: "Codec Pro";
+    background:black;
+    color:#00ffcc;
+}
+
+a{
+    text-decoration:none;
+} 
+.container{
+    flex-direction:column;
+    justify-content:center;     
+    text-align:center;
 }
     </style>
 </head>

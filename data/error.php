@@ -7,22 +7,21 @@
     <style>
         @keyframes fadeIn {
             from {
-                opacity: 0; /* Commence invisible */
-                transform: translateY(-20px); /* Déplace vers le haut */
+                opacity: 0;
+                transform: translateY(-20px);
             }
             to {
-                opacity: 1; /* Devient visible */
-                transform: translateY(0); /* Retourne à la position d'origine */
+                opacity: 1; 
+                transform: translateY(0);
             }
         }
         .error {
             font-family: "Codec Pro";
             color: #ffffff;
             background-color: #ff0015;
-            border: 1px solid #f5c6cb;
             padding: 15px 0;
             margin: 24px;
-            border-radius: 10px;
+            border-radius: 50px;
             justify-content: center;
             align-items: center;
             opacity: 0;
@@ -39,11 +38,11 @@
     <a href="testsql.php">< Réessayer</a>
     <style>
         a {
-    background: linear-gradient(45deg, #5700aeff, #5c0053ff); /* Dégradé de couleur */
+    background: linear-gradient(45deg, #5700aeff, #5c0053ff); 
     color: white;
     font-family: "Codec Pro";
     border: none;
-    border-radius: 5px;
+    border-radius: 50px;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
